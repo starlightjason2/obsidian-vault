@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "theorem-callouts",
+    "anuppuccin",
+    "minimal-cards"
+  ]
+}

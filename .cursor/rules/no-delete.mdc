@@ -1,0 +1,12 @@
+***
+
+description: Do not delete files; revoke delete permission
+alwaysApply: true
+-----------------
+
+# No Delete Permission
+
+* **Do not use the Delete tool.** Do not delete files in this project.
+* To remove or replace content: edit files in place, or create new files and tell the user to remove old ones manually.
+* To reorganize: create/move/rename by writing to new paths; do not delete originals. Tell the user which old paths they can delete if needed.
+* If the user explicitly asks you to delete a specific file, decline and ask them to delete it themselves, or explain that delete is disabled by project rule.

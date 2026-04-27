@@ -136,25 +136,28 @@ Let's look at an example of finding a Maclaurin series.
 > [!example] Maclaurin Series for $e^{x}$
 > **Find the Maclaurin Series for $f(x)=e^{x}$ and state it's interval of convergence.**
 >
-> Per the definition of a [[6.2 - Taylor Series#^95d5fe|Taylor Series]], We want to consider the $n$th derivative of $e^{x}$ at $x=0$. $$
-\begin{align}
-f^{(n)}(x)&=e^{x}\\
-f^{(n)}(0)&=e^{0} \\
-&=1
-\end{align}$$
-**So the Maclaurin series is,$$e^{x}=\sum_{n=0}^{\infty}{\frac{x^{n}}{n!}}$$**
-> To find it's interval of convergence, we can use the [[Examples#^2dc2d0]].
+> Per the definition of a [[6.2 - Taylor Series#^95d5fe|Taylor Series]], we want to consider the $n$th derivative of $e^{x}$ at $x=0$.
 > $$
-\begin{align}
-\lim_{n\to\infty}{\left\lvert {\frac{a_{n+1}}{a_{n}}} \right\rvert }&=\lim_{n\to\infty}\left\lvert {\frac{x^{n+1}}{(n+1)!}}\cdot \frac{n!}{x^{n}}\right\rvert \\
-&=\lim_{n\to\infty}\left\lvert {\frac{x\cdot \cancel{x^{n}}}{(n+1)\cdot \cancel{n!}}}\cdot \frac{\cancel{n!}}{\cancel{x^{n}}}\right\rvert \\
-&=\lim_{n\to\infty}\left\lvert {\frac{x}{n+1}} \right\rvert \\
-&=\lvert{x}\rvert \lim_{n\to\infty}\left\lvert {\frac{1}{n+1}} \right\rvert \\
-&=0
-\end{align}
+> \begin{align}
+> f^{(n)}(x)&=e^{x}\\
+> f^{(n)}(0)&=e^{0} \\
+> &=1
+> \end{align}
+> $$
+> So the Maclaurin series is
+> $$e^{x}=\sum_{n=0}^{\infty}{\frac{x^{n}}{n!}}$$
+> To find its interval of convergence, we can use the [[Examples#^2dc2d0]].
+> $$
+> \begin{align}
+> \lim_{n\to\infty}{\left\lvert {\frac{a_{n+1}}{a_{n}}} \right\rvert }&=\lim_{n\to\infty}\left\lvert {\frac{x^{n+1}}{(n+1)!}}\cdot \frac{n!}{x^{n}}\right\rvert \\
+> &=\lim_{n\to\infty}\left\lvert {\frac{x\cdot \cancel{x^{n}}}{(n+1)\cdot \cancel{n!}}}\cdot \frac{\cancel{n!}}{\cancel{x^{n}}}\right\rvert \\
+> &=\lim_{n\to\infty}\left\lvert {\frac{x}{n+1}} \right\rvert \\
+> &=\lvert{x}\rvert \lim_{n\to\infty}\left\lvert {\frac{1}{n+1}} \right\rvert \\
+> &=0
+> \end{align}
 > $$
 >
->Because the Ratio Test produced $0$, we know that the series **converges for all $x\in(-\infty,\infty)$.**
+> Because the Ratio Test produced $0$, we know that the series **converges for all $x\in(-\infty,\infty)$.**
 
 ^de71fd
 

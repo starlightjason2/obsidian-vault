@@ -21,19 +21,9 @@
             "id": "edc81fbd1ff86de9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "bec076aaceaa2bfe",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Physics/Module 5 - Quantum Mechanics/6.5 - Free Particles.md",
+                "file": "Math/Module 2 - Linear Algebra/2.2 - Matrices.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -48,11 +38,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6.5 - Free Particles"
+              "title": "2.2 - Matrices"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,8 +217,16 @@
       "theorem-constellation:Theorem Constellation: scan vault": false
     }
   },
-  "active": "bec076aaceaa2bfe",
+  "active": "edc81fbd1ff86de9",
   "lastOpenFiles": [
+    "Math/Module 2 - Linear Algebra/2.1 - Vectors.md",
+    "Math/Module 2 - Linear Algebra/2.4 - Determinants.md",
+    "Math/Module 2 - Linear Algebra/2.2 - Matrices.md",
+    "Physics/Module 2 - Electricity and Magnetism/2.1 - Classical Electromagnetism/sedlo7vfx",
+    "Math/Module 1 - Sets and Series/sedTFGOSI",
+    "Math/Module 1 - Sets and Series/5.4 - Convergence Tests.md",
+    "Math/Module 1 - Sets and Series/5.1 - Infinite Sequences.md",
+    "Physics/Module 5 - Quantum Mechanics/6.5 - Free Particles.md",
     "Physics/Astrophysics/1.7 - Cosmology.md",
     "Physics/Astrophysics/1.5 - Stellar Evolution.md",
     "Math/Module 4 - Differential Equations/4.3 - Linear PDEs/4.3.2 - Second Order Linear PDEs.md",
@@ -242,8 +240,6 @@
     "plugins/manifest.json",
     "plugins/main.js",
     "plugins",
-    "plugin/styles.css",
-    "plugin/manifest.json",
     "plugin/CONTEXT.md",
     "plugin/node_modules/@types/cytoscape/README.md",
     "plugin/node_modules/cytoscape/README.md",
@@ -259,12 +255,6 @@
     "plugin/node_modules/csstype/README.md",
     "plugin/node_modules/react-dom/README.md",
     "plugin/node_modules/react/README.md",
-    "plugin/node_modules/scheduler/README.md",
-    "plugin/node_modules/js-tokens/README.md",
-    "plugin/node_modules/loose-envify/README.md",
-    "plugin/node_modules/js-tokens/CHANGELOG.md",
-    "plugin/node_modules/typescript/SECURITY.md",
-    "plugin/node_modules/typescript/README.md",
     "Pasted image 20260227145204.png",
     "Pasted image 20260227143136.png",
     "Pasted image 20260227143104.png",

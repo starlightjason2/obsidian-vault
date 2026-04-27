@@ -5,4 +5,4 @@
 > $$f(E)=\frac{1}{A\,e^{E/k_{B}T}}$$
 >
 
-^a57092
+^boltzmann-distribution

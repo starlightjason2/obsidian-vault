@@ -136,7 +136,7 @@ Let's look at an example of finding a Maclaurin series.
 > [!example] Maclaurin Series for $e^{x}$
 > **Find the Maclaurin Series for $f(x)=e^{x}$ and state it's interval of convergence.**
 >
-> Per the definition of a [[6.2 - Taylor Series#^95d5fe|Taylor Series]], we want to consider the $n$th derivative of $e^{x}$ at $x=0$.
+> Per the definition of a [[6.2 - Taylor Series#^taylor-series|Taylor Series]], we want to consider the $n$th derivative of $e^{x}$ at $x=0$.
 > $$
 > \begin{align}
 > f^{(n)}(x)&=e^{x}\\
@@ -146,7 +146,7 @@ Let's look at an example of finding a Maclaurin series.
 > $$
 > So the Maclaurin series is
 > $$e^{x}=\sum_{n=0}^{\infty}{\frac{x^{n}}{n!}}$$
-> To find its interval of convergence, we can use the [[Examples#^2dc2d0]].
+> To find its interval of convergence, we can use the [[Examples#^ratio-test]].
 > $$
 > \begin{align}
 > \lim_{n\to\infty}{\left\lvert {\frac{a_{n+1}}{a_{n}}} \right\rvert }&=\lim_{n\to\infty}\left\lvert {\frac{x^{n+1}}{(n+1)!}}\cdot \frac{n!}{x^{n}}\right\rvert \\
@@ -159,10 +159,10 @@ Let's look at an example of finding a Maclaurin series.
 >
 > Because the Ratio Test produced $0$, we know that the series **converges for all $x\in(-\infty,\infty)$.**
 
-^de71fd
+^maclaurin-series-for-ex
 
 > [!example] Taylor Series for $\frac{1}{x}$
-> **Find the [[6.2 - Taylor Series#^95d5fe]] for $f(x)=\frac{1}{x}$ at $a=6$**
+> **Find the [[6.2 - Taylor Series#^taylor-series]] for $f(x)=\frac{1}{x}$ at $a=6$**
 > $$
 > \begin{align}
 > f(x)&=1\cdot x^{-1} &n=0\\ 
@@ -227,7 +227,7 @@ Let's look at an example of finding a Maclaurin series.
 > $$
 > f^{(n)}(0)=\frac{r!}{(r-n)!}
 > $$
-> We can substitute into the formula for the [[6.2 - Taylor Series#^95d5fe|Taylor Series]] to find our series representation.
+> We can substitute into the formula for the [[6.2 - Taylor Series#^taylor-series|Taylor Series]] to find our series representation.
 > $$
 > f(x)=\sum_{n=0}^{\infty}{\frac{r!}{n!(r-n)!}x^{n}}
 > $$
@@ -260,7 +260,7 @@ Let's look at an example of finding a Maclaurin series.
 ## Proof that
 
 `\begin{proof}`
-Let's prove that the Maclaurin series of $\sin(x)$ equals it's Taylor series using [[6.2 - Taylor Series#^f9b03a]]. We will show that $\lim_{n\to\infty}{R_{n}(x)}=0$.
+Let's prove that the Maclaurin series of $\sin(x)$ equals it's Taylor series using [[6.2 - Taylor Series#^taylors-theorem-with-remainder]]. We will show that $\lim_{n\to\infty}{R_{n}(x)}=0$.
 
 We know that the $n$th derivative of $f(x)=\sin(x)$ follows the repeating pattern
 $$

@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "edc81fbd1ff86de9",
+            "id": "ad86fc90d9c2f797",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Module 2 - Linear Algebra/2.2 - Matrices.md",
+                "file": "Math/Module 3 - Functions/2.7 - Function Spaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,11 +38,130 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.2 - Matrices"
+              "title": "2.7 - Function Spaces"
+            }
+          },
+          {
+            "id": "c6218890bc313470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physics/Module 6 - Relativity/5.4 - Velocity and Momentum.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "5.4 - Velocity and Momentum"
+            }
+          },
+          {
+            "id": "bcead6812fcb7739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physics/Module 6 - Relativity/5.5 - Mass and Energy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "5.5 - Mass and Energy"
+            }
+          },
+          {
+            "id": "c9510bd71abe3e9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.5 - Damped Waves.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4.5 - Damped Waves"
+            }
+          },
+          {
+            "id": "4b00b05a3767ad73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Module 1 - Sets and Series/6.1 - Power Series.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "6.1 - Power Series"
+            }
+          },
+          {
+            "id": "e544193f31750dd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.2 - Damped Harmonic Oscillation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4.2 - Damped Harmonic Oscillation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "completeness rela",
+                "query": "overdamped-wave",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,11 +336,19 @@
       "theorem-constellation:Theorem Constellation: scan vault": false
     }
   },
-  "active": "edc81fbd1ff86de9",
+  "active": "ca846c66e830ad65",
   "lastOpenFiles": [
+    "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.5 - Damped Waves.md",
+    "Math/Module 1 - Sets and Series/6.1 - Power Series.md",
+    "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.2 - Damped Harmonic Oscillation.md",
+    "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.3 - Driven Harmonic Oscillation.md",
+    "Physics/Module 6 - Relativity/5.5 - Mass and Energy.md",
+    "Physics/Module 6 - Relativity/5.4 - Velocity and Momentum.md",
+    "Math/Module 3 - Functions/2.7 - Function Spaces.md",
+    "Math/Module 3 - Functions/3.1 - Scalar Functions.md",
+    "Math/Module 2 - Linear Algebra/2.2 - Matrices.md",
     "Math/Module 2 - Linear Algebra/2.1 - Vectors.md",
     "Math/Module 2 - Linear Algebra/2.4 - Determinants.md",
-    "Math/Module 2 - Linear Algebra/2.2 - Matrices.md",
     "Physics/Module 2 - Electricity and Magnetism/2.1 - Classical Electromagnetism/sedlo7vfx",
     "Math/Module 1 - Sets and Series/sedTFGOSI",
     "Math/Module 1 - Sets and Series/5.4 - Convergence Tests.md",
@@ -247,14 +374,6 @@
     "node_modules/cytoscape/README.md",
     "node_modules/cytoscape/CODE_OF_CONDUCT.md",
     "Math/Module 4 - Differential Equations/4.3 - Linear PDEs/4.3.0 - Linear PDEs.md",
-    "Math/Module 4 - Differential Equations/4.0 - ODEs.md",
-    "Math/Module 3 - Functions/3.1 - Scalar Functions.md",
-    "plugin/node_modules/@types/react-dom/README.md",
-    "plugin/node_modules/@types/react/README.md",
-    "plugin/node_modules/@types/prop-types/README.md",
-    "plugin/node_modules/csstype/README.md",
-    "plugin/node_modules/react-dom/README.md",
-    "plugin/node_modules/react/README.md",
     "Pasted image 20260227145204.png",
     "Pasted image 20260227143136.png",
     "Pasted image 20260227143104.png",

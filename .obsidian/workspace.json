@@ -4,40 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "71c078c6cdbc501e",
+        "id": "d58fb258c3a4c247",
         "type": "tabs",
         "children": [
           {
-            "id": "b8bf7f0a8b0c7853",
+            "id": "ca846c66e830ad65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.5 - First Order Systems.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "4.1.5 - First Order Systems"
+              "type": "theorem-constellation-graph",
+              "state": {},
+              "icon": "git-fork",
+              "title": "Constellation"
             }
           },
           {
-            "id": "755ac4baadb7c5b6",
+            "id": "edc81fbd1ff86de9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "bec076aaceaa2bfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.6 - Second Order Systems.md",
+                "file": "Physics/Module 5 - Quantum Mechanics/6.5 - Free Particles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +48,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.1.6 - Second Order Systems"
+              "title": "6.5 - Free Particles"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "system",
+                "query": "completeness rela",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,47 +222,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "theorem-constellation:Theorem Constellation: open graph view": false,
+      "theorem-constellation:Theorem Constellation: scan vault": false
     }
   },
-  "active": "755ac4baadb7c5b6",
+  "active": "bec076aaceaa2bfe",
   "lastOpenFiles": [
-    "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.5 - First Order Systems.md",
-    "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.6 - Second Order Systems.md",
-    "Math/Module 4 - Differential Equations/4.3 - Linear PDEs/4.3.1 - First Order Linear PDEs.md",
-    "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.3 - Constant Coefficient ODEs.md",
-    "scripts/verify-links.mjs.tmp.42981.1777235567627",
-    "scripts/verify-links.mjs",
-    "scripts/verify-links.mjs.tmp.42981.1777235422276",
-    "scripts",
+    "Physics/Astrophysics/1.7 - Cosmology.md",
+    "Physics/Astrophysics/1.5 - Stellar Evolution.md",
+    "Math/Module 4 - Differential Equations/4.3 - Linear PDEs/4.3.2 - Second Order Linear PDEs.md",
+    "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.2 - Second Order Linear ODEs.md",
     "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.4 - Euler Equations.md",
-    "co.md.tmp.42981.1777234800390",
-    "co.md.tmp.42981.1777234714937",
-    "co.md.tmp.42981.1777234707913",
-    "co.md.tmp.42981.1777234683679",
-    "co.md.tmp.42981.1777234592678",
-    "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.8 - Coupled Oscillators.md.tmp.8057.1777176900663",
-    "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.1 - Simple Harmonic Oscillation.md",
-    "Math/Module 2 - Linear Algebra/2.2 - Matrix Decomposition.md",
-    "Math/Module 2 - Linear Algebra/2.6 - Eigenvectors and Eigenvalues.md",
-    "Math/Module 2 - Linear Algebra/2.2 - Matrices.md",
-    "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.0 - Linear ODEs.md",
-    "Physics/Module 5 - Quantum Mechanics/6.9 - Particle Flux.md",
-    "Physics/Module 1 - Classical Mechanics/1 - Newtonian Mechanics/1.10 - Fluid Dynamics.md",
-    "Math/Module 4 - Differential Equations/4.1 - Linear ODEs/4.1.1 - First Order Linear ODEs.md",
-    "Math/Module 3 - Functions/3.2 - Vector Functions.md",
-    "Math/Module 2 - Linear Algebra/2.3 - RREF and Systems of Equations.md",
-    "Math/Module 3 - Functions/3.3 - Vector Fields.md",
-    "Math/Module 2 - Linear Algebra/2.6 - Coordinate Sytems.md",
-    "Math/Module 4 - Calculus/3.2 - Differentiation/3.5 - Derivatives.md",
-    "Math/Module 4 - Calculus/3.2 - Differentiation/3.6 - Vector Derivatives.md",
-    "Math/Module 4 - Calculus/3.2 - Differentiation/3.7 - Multiple Derivatives.md",
-    "Math/Module 2 - Linear Algebra/2.5 - Linear Transformations.md",
-    "Physics/Module 1 - Classical Mechanics/3 - Oscillations/4.8 - Coupled Oscillators.md",
-    "Physics/Module 5 - Quantum Mechanics/6.6 - Quantum Wave Packets.md",
-    "Physics/Module 5 - Quantum Mechanics/6.8 - Potential Barriers.md",
-    "Physics/Module 5 - Quantum Mechanics/6.4 - Position and Momentum.md",
-    "Physics/Module 5 - Quantum Mechanics/6.2 - Uncertainty.md",
+    "plugins/theorem-constellation/styles.css",
+    "plugins/theorem-constellation/manifest.json",
+    "plugins/theorem-constellation/main.js",
+    "plugins/theorem-constellation",
+    "plugins/styles.css",
+    "plugins/manifest.json",
+    "plugins/main.js",
+    "plugins",
+    "plugin/styles.css",
+    "plugin/manifest.json",
+    "plugin/CONTEXT.md",
+    "plugin/node_modules/@types/cytoscape/README.md",
+    "plugin/node_modules/cytoscape/README.md",
+    "plugin/node_modules/cytoscape/CODE_OF_CONDUCT.md",
+    "node_modules/cytoscape/README.md",
+    "node_modules/cytoscape/CODE_OF_CONDUCT.md",
+    "Math/Module 4 - Differential Equations/4.3 - Linear PDEs/4.3.0 - Linear PDEs.md",
+    "Math/Module 4 - Differential Equations/4.0 - ODEs.md",
+    "Math/Module 3 - Functions/3.1 - Scalar Functions.md",
+    "plugin/node_modules/@types/react-dom/README.md",
+    "plugin/node_modules/@types/react/README.md",
+    "plugin/node_modules/@types/prop-types/README.md",
+    "plugin/node_modules/csstype/README.md",
+    "plugin/node_modules/react-dom/README.md",
+    "plugin/node_modules/react/README.md",
+    "plugin/node_modules/scheduler/README.md",
+    "plugin/node_modules/js-tokens/README.md",
+    "plugin/node_modules/loose-envify/README.md",
+    "plugin/node_modules/js-tokens/CHANGELOG.md",
+    "plugin/node_modules/typescript/SECURITY.md",
+    "plugin/node_modules/typescript/README.md",
     "Pasted image 20260227145204.png",
     "Pasted image 20260227143136.png",
     "Pasted image 20260227143104.png",

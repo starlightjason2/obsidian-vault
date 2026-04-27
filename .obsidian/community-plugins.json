@@ -16,8 +16,8 @@
   "math-booster",
   "editing-toolbar",
   "extended-graph",
-  "graph-link-types",
   "title-renamer",
   "math-in-callout",
-  "code-emitter"
+  "code-emitter",
+  "theorem-constellation"
 ]

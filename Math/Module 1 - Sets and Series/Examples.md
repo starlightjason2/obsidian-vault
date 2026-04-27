@@ -136,7 +136,7 @@ Let's look at an example of finding a Maclaurin series.
 > [!example] Maclaurin Series for $e^{x}$
 > **Find the Maclaurin Series for $f(x)=e^{x}$ and state it's interval of convergence.**
 >
-> Per the definition of a [[6.2 - Taylor Series#^c90d51]], We want to consider the $n$th derivative of $e^{x}$ at $x=0$. $$
+> Per the definition of a [[6.2 - Taylor Series#^95d5fe|Taylor Series]], We want to consider the $n$th derivative of $e^{x}$ at $x=0$. $$
 \begin{align}
 f^{(n)}(x)&=e^{x}\\
 f^{(n)}(0)&=e^{0} \\
@@ -224,7 +224,7 @@ f^{(n)}(0)&=e^{0} \\
 > $$
 > f^{(n)}(0)=\frac{r!}{(r-n)!}
 > $$
-> We can substitute into the formula for the [[6.2 - Taylor Series#^c90d51]] to find our series representation.
+> We can substitute into the formula for the [[6.2 - Taylor Series#^95d5fe|Taylor Series]] to find our series representation.
 > $$
 > f(x)=\sum_{n=0}^{\infty}{\frac{r!}{n!(r-n)!}x^{n}}
 > $$

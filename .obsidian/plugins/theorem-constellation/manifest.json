@@ -1,0 +1,9 @@
+{
+  "id": "theorem-constellation",
+  "name": "Theorem Constellation",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Detects and fixes broken, duplicate, and redundant wikilinks across the vault.",
+  "author": "Jason",
+  "isDesktopOnly": false
+}

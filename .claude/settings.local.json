@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/verify-links.mjs --verbose)",
+      "Read(//usr/bin/**)",
+      "Bash(rpm -qa)",
+      "Bash(node scripts/verify-links.mjs)",
+      "Bash(awk '{print $1}')"
+    ]
+  }
+}

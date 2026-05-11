@@ -146,7 +146,7 @@ Let's look at an example of finding a Maclaurin series.
 > $$
 > So the Maclaurin series is
 > $$e^{x}=\sum_{n=0}^{\infty}{\frac{x^{n}}{n!}}$$
-> To find its interval of convergence, we can use the [[Examples#^ratio-test]].
+> To find its interval of convergence, we can use the [[5.4 - Convergence Tests#^ratio-test]].
 > $$
 > \begin{align}
 > \lim_{n\to\infty}{\left\lvert {\frac{a_{n+1}}{a_{n}}} \right\rvert }&=\lim_{n\to\infty}\left\lvert {\frac{x^{n+1}}{(n+1)!}}\cdot \frac{n!}{x^{n}}\right\rvert \\

@@ -1,3 +1,11 @@
+/* =========================================================================
+   Theorem Constellation — minimal structural CSS
+   =========================================================================
+   All theming/colors/spacing has been intentionally removed. What's left is
+   only the bare layout needed for cytoscape to have a real size to render
+   into. Re-add visual styling incrementally.
+   ========================================================================= */
+
 .tc-graph-view {
   display: flex;
   flex-direction: column;
@@ -9,155 +17,69 @@
   align-items: center;
   gap: 8px;
   padding: 6px 10px;
-  border-bottom: 1px solid var(--background-modifier-border);
-  flex-shrink: 0;
 }
 
 .tc-info {
   flex: 1;
-  font-size: 12px;
-  color: var(--text-muted);
 }
 
 .tc-graph-container {
   flex: 1;
   min-height: 0;
+  position: relative;
 }
 
-/* Context menu */
-.tc-context-menu {
-  position: fixed;
-  z-index: 1000;
-  margin: 0;
-  padding: 4px 0;
-  list-style: none;
-  background: var(--background-primary);
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-  min-width: 180px;
-}
-
-.tc-context-menu li button {
-  display: block;
-  width: 100%;
-  padding: 6px 14px;
-  background: none;
-  border: none;
-  border-radius: 0;
-  text-align: left;
-  font-size: 13px;
-  color: var(--text-normal);
-  cursor: pointer;
-  box-shadow: none;
-}
-
-.tc-context-menu li button:hover:not(:disabled) {
-  background: var(--background-modifier-hover);
-}
-
-.tc-context-menu li button:disabled {
-  color: var(--text-muted);
-  cursor: default;
-}
-
-/* Report panel */
-.tc-report {
-  flex-shrink: 0;
-  max-height: 40%;
-  display: flex;
-  flex-direction: column;
-  border-top: 1px solid var(--background-modifier-border);
+/* Debug slider panel — live fcose tuning. */
+.tc-debug-panel {
+  padding: 6px 10px;
   font-size: 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  max-height: 40vh;
+  overflow: auto;
 }
-
-.tc-report-header {
+.tc-debug-panel > summary {
+  cursor: pointer;
+  user-select: none;
+  padding: 2px 0;
+}
+.tc-slider-row {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 5px 10px;
-  background: var(--background-secondary);
-  border-bottom: 1px solid var(--background-modifier-border);
-  flex-shrink: 0;
+  padding: 2px 0;
 }
-
-.tc-report-title {
+.tc-slider-label {
+  min-width: 170px;
+  font-family: var(--font-monospace);
+}
+.tc-slider-row input[type="range"] {
   flex: 1;
-  color: var(--text-normal);
-  font-weight: 600;
 }
-
-.tc-report-close {
-  background: none;
-  border: none;
+.tc-slider-value {
+  min-width: 70px;
+  text-align: right;
+  font-family: var(--font-monospace);
   color: var(--text-muted);
-  cursor: pointer;
-  padding: 0 4px;
-  font-size: 13px;
-  box-shadow: none;
 }
-
-.tc-report-close:hover {
-  color: var(--text-normal);
-}
-
-.tc-report-body {
-  overflow-y: auto;
-  padding: 6px 10px;
-  -webkit-user-select: text;
-  user-select: text;
-}
-
-.tc-report-empty {
-  padding: 8px 10px;
-  color: var(--text-muted);
-  margin: 0;
-}
-
-.tc-report-file {
-  margin-bottom: 8px;
-}
-
-.tc-report-filename {
-  font-weight: 600;
-  color: var(--text-muted);
-  margin-bottom: 3px;
-}
-
-.tc-report-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.tc-slider-actions {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.tc-report-list li {
-  display: flex;
-  align-items: baseline;
   gap: 6px;
-  flex-wrap: wrap;
+  margin-top: 6px;
 }
 
-.tc-report-line {
-  color: var(--text-faint);
-  min-width: 36px;
+/* Card width must match the CARD_WIDTH constant in `KnowledgeGraph` so the
+   layout's expected node footprint matches the actual rendered card size. */
+.tc-md-node {
+  width: 320px;
+  max-height: 360px;
 }
 
-.tc-report-kind {
-  color: var(--text-accent);
-  min-width: 90px;
-}
-
-.tc-report-raw {
-  color: var(--text-normal);
-  font-size: 11px;
-  background: var(--background-secondary);
-  padding: 1px 4px;
-  border-radius: 3px;
-}
-
-.tc-report-arrow {
-  color: var(--text-muted);
+/* Obsidian's `--callout-rgb` (used by themes for `rgba(var(--callout-rgb),
+   0.1)` backgrounds) doesn't cascade outside the normal reading-view DOM.
+   `--callout-color` does, so we mix it with transparent to get a tinted
+   background that matches the callout type. Falls back to a flat secondary
+   background if `color-mix` isn't supported. */
+.tc-md-node .callout {
+  background-color: var(--background-secondary);
+  background-color: color-mix(in srgb, var(--callout-color, var(--background-secondary)) 12%, var(--background-primary));
 }

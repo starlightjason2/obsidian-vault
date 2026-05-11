@@ -4,7 +4,6 @@
   { trigger: "Pu", replacement: "\\left[\\pu{$0}\\right]$1", options: "mA" },
   { trigger: "*", replacement: "\\cdot$0", options: "mA" },
   { trigger: "^", replacement: "^{$0}$1", options: "mA" },
-  { trigger: "1", replacement: "\\mathbf{1}", options: "m" },
   {
     trigger: /([a-zA-Z0-9]+)C([a-zA-Z0-9]+)/,
     replacement: "\\binom{[[0]]}{[[1]]}",
@@ -152,14 +151,16 @@
     options: "rmA",
   },
   {
+    trigger: "([a-zA-Z0-9])uvec",
+    replacement: "\\hat{\\boldsymbol{[[0]]}}",
+    options: "rmA",
+    priority: 3,
+  },
+  {
     trigger: "([a-zA-Z0-9])vec",
     replacement: "\\mathbf{[[0]]}",
     options: "rmA",
-  },
-  {
-    trigger: "([a-zA-Z0-9])hvec",
-    replacement: "\\mathbf{\\hat{[[0]]}}",
-    options: "rmA",
+    priority: 2,
   },
   { trigger: "([a-zA-Z]),\\.", replacement: "\\mathbf{[[0]]}", options: "rmA" },
   { trigger: "([a-zA-Z])\\.,", replacement: "\\mathbf{[[0]]}", options: "rmA" },
@@ -173,7 +174,6 @@
     replacement: "\\boldsymbol{\\[[0]]}",
     options: "rmA",
   },
-
   { trigger: "bar", replacement: "\\bar{$0}$1", options: "mA" },
   { trigger: "dot", replacement: "\\dot{$0}$1", options: "mA", priority: -1 },
   { trigger: "ddot", replacement: "\\ddot{$0}$1", options: "mA" },
@@ -273,6 +273,11 @@
   {
     trigger: "LL",
     replacement: "\\mathcal{L}",
+    options: "mA",
+  },
+  {
+    trigger: "ll",
+    replacement: "\\ell",
     options: "mA",
   },
   {
@@ -448,9 +453,13 @@
   { trigger: "dag", replacement: "^{\\dagger}", options: "mA" },
   { trigger: "o+", replacement: "\\oplus ", options: "mA" },
   { trigger: "ox", replacement: "\\otimes ", options: "mA" },
-  { trigger: "brk", replacement: "\\Braket{$0 | $1}", options: "mA" },
-  { trigger: "bra", replacement: "\\Bra{$0}", options: "m" },
-  { trigger: "ket", replacement: "\\Ket{$0}", options: "m" },
+  {
+    trigger: "br",
+    replacement: "\\Braket{$0 | $1}",
+    options: "mA",
+  },
+  { trigger: "bra", replacement: "\\Bra{$0}", options: "mA" },
+  { trigger: "ket", replacement: "\\Ket{$0}", options: "mA" },
   { trigger: "exp", replacement: "\\langle $0 \\rangle $1", options: "mA" },
   {
     trigger: "outer",
